@@ -2,10 +2,10 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 const CopyEmailButton = () => {
   const [copied, setCopied] = useState(false);
-  const email = "mubangaa02@gmail.com";
+  const contact = "mubangaa02@gmail.com";
 
   const copyToClipboard = () => {
-    navigator.clipboard.writeText(email);
+    navigator.clipboard.writeText(contact);
     setCopied(true);
 
     setTimeout(() => {
@@ -30,7 +30,7 @@ const CopyEmailButton = () => {
             transition={{ duration: 0.1, ease: "easeInOut" }}
           >
             <img src="assets/copy-done.svg" className="w-5" alt="copy Icon" />
-            Email has Copied
+            Contact Details Copied
           </motion.p>
         ) : (
           <motion.p
@@ -42,7 +42,7 @@ const CopyEmailButton = () => {
             transition={{ duration: 0.1 }}
           >
             <img src="assets/copy.svg" className="w-5" alt="copy icon" />
-            Copy Email Address
+            Copy Contact Details
           </motion.p>
         )}
       </AnimatePresence>
