@@ -7,7 +7,7 @@ const {FlipWords} = lazy(() => import("./FlipWords"));
 const {motion} = lazy(() => import("motion/react"));
 */
 
-const HeroText = () => {
+const MainText = () => {
   const words = ["Secure", "Modern", "Scalable"];
   const variants = {
     hidden: { opacity: 0, x: -50 },
@@ -105,4 +105,4 @@ const HeroText = () => {
   );
 };
 
-export default HeroText;
+export default MainText;

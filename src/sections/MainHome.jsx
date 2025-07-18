@@ -1,5 +1,5 @@
 import { Canvas, useFrame } from "@react-three/fiber";
-import HeroText from "../components/HeroText";
+import MainText from "../components/MainText";
 import { Float } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
@@ -18,11 +18,11 @@ const Suspense= lazy(() => import("react"));
 const Loader= lazy(() => import("../components/Loader")); 
 */
 
-const Hero = () => {
+const MainHome = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
   return (
     <section className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space" id="home">
-      <HeroText />
+      <MainText />
       {/*Add the bacground you want*/}
     </section>
   );
@@ -39,4 +39,4 @@ function Rig() {
   });
 }
 
-export default Hero;
+export default MainHome;
