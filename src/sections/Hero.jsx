@@ -6,11 +6,11 @@ import { easing } from "maath";
 import { Suspense } from "react";
 import Loader from "../components/Loader";
 
+
 /*
 const Canvas= lazy(() => import("@react-three/fiber")); 
 const useFrame= lazy(() => import("@react-three/fiber")); 
 const HeroText= lazy(() => import("../components/HeroText")); 
-const ParallaxBackground= lazy(() => import("../components/ParallaxBackground")); 
 const Float= lazy(() => import("@react-three/drei")); 
 const useMediaQuery= lazy(() => import("react-responsive")); 
 const easing= lazy(() => import("maath")); 
