@@ -13,7 +13,7 @@ const Footer = () => {
           </a>
         ))}
       </div>
-      <p>© 2025 Aaron Mubanga. All rights reserved. </p>
+      <p>© 2025 Aaron .M. All rights reserved. </p>
     </section>
   );
 };
