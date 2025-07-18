@@ -10,17 +10,17 @@ function Navigation() {
       </li>
       <li className="nav-li">
         <a className="nav-link" href="#about">
-          About
+          About Me
         </a>
       </li>
       <li className="nav-li">
         <a className="nav-link" href="#work">
-          Work
+          My Work
         </a>
       </li>
       <li className="nav-li">
         <a className="nav-link" href="#contact">
-          Contact
+          Contact Me
         </a>
       </li>
     </ul>
@@ -36,7 +36,7 @@ const Navbar = () => {
             href="/"
             className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
-            Aaron
+            Aaron Mubanga
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}
