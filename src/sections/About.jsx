@@ -41,7 +41,7 @@ const About = () => {
             className="flex items-center justify-center w-full h-full"
           >
             <p className="flex items-end text-5xl text-gray-500">
-              Code by Aaron has to be Dynamic
+              Aaron's Code Dynamically Resonsive
             </p>
             <Card
               style={{ rotate: "75deg", top: "30%", left: "20%" }}
