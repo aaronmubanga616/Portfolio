@@ -97,7 +97,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-            Web & Mobile Applications, Netwoks 
+            Web & Mobile Applications, Networks 
           </motion.p>
         </div>
       </div>
