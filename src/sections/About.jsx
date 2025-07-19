@@ -34,6 +34,7 @@ const About = () => {
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
+        {/*Grid test */}
         {/* Grid 2 */}
         <div className="grid-default-color grid-5">
           <div className="z-10 w-[50%]">
