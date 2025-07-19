@@ -5,9 +5,21 @@ import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
 import { Suspense } from "react";
 import Loader from "../components/Loader";
+import React from 'react';
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
+import { useRef } from 'react';
 
 const MainHome = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
+
+  useGSAP(() => {
+    gsap.set("#video-frame", {
+      clipPath: "polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%)"
+    });
+  });
+
+
   return (
     <section className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space" id="home">
       <MainText />
