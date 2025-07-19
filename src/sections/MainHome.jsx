@@ -6,18 +6,6 @@ import { easing } from "maath";
 import { Suspense } from "react";
 import Loader from "../components/Loader";
 
-
-/*
-const Canvas= lazy(() => import("@react-three/fiber")); 
-const useFrame= lazy(() => import("@react-three/fiber")); 
-const HeroText= lazy(() => import("../components/HeroText")); 
-const Float= lazy(() => import("@react-three/drei")); 
-const useMediaQuery= lazy(() => import("react-responsive")); 
-const easing= lazy(() => import("maath")); 
-const Suspense= lazy(() => import("react")); 
-const Loader= lazy(() => import("../components/Loader")); 
-*/
-
 const MainHome = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
   return (
