@@ -127,7 +127,7 @@ export const mySocials = [
 export const experiences = [
   {
     title: "Graphic Designer",
-    job: "Graphic Design Projects",
+    job: "Graphic Designer",
     date: "2022-2023",
     contents: [
       "Worked at interact club of Libala as a graphic designer, I was responsible for creating visually engaging content that effectively communicated ideas across both digital and print platforms. My work involved conceptualizing and executing designs that aligned with brand identity and project objectives. I developed a wide range of visual assets including logos, social media content, marketing materials, posters, banners, and user interface mockups. I lead a team of five to understand creative direction, apply design principles, and deliver high-quality results under tight deadlines. Throughout the process, I utilized industry-standard tools and maintained a strong attention to detail, ensuring consistency and visual appeal in every piece.",
