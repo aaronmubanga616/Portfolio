@@ -14,7 +14,7 @@ const MainHome = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
 
   useGSAP(() => {
-    gsap.set("#video-frame", {
+    gsap.set("#home", {
       clipPath: "polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%)"
     });
   });
